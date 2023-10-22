@@ -30,7 +30,7 @@ const projects = [
   {
     ariaLabel: 'Link to the project',
     title: 'Project Transfer',
-    description: 'Project description 2',
+    description: 'Project Transfer using Spring boot and Kafka',
     technologies: ['Java', 'Spring boot', 'JUnit', 'Kafka', 'PostgreSQL', 'Spring JPA'],
     externalLink: 'https://github.com/valentimkoniarski/transferencia-models'
   }
