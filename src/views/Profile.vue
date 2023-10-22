@@ -3,7 +3,7 @@
     <div class="profile">
       <div class="profile__image">
         <v-avatar :size="smAndDown ? 200 : 300">
-          <img src="../assets/images/valentim_photo.jpeg" alt="avatar" width="300">
+          <img src="../assets/images/valentim_photo.jpeg" alt="avatar" width="200" style="border-radius: 50%;">
         </v-avatar>
       </div>
       <div class="profile__text">
@@ -100,6 +100,12 @@ const {xs, sm, smAndDown, md, mdAndDown} = useDisplay()
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+  }
+}
+
+@media (min-width: 1920px) {
+  .v-container {
+    max-width: 1200px;
   }
 }
 
