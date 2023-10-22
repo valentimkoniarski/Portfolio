@@ -23,16 +23,16 @@ const projects = [
   {
     ariaLabel: 'Link to the project',
     title: 'Portfolio',
-    description: 'Project description 1',
-    technologies: ['Vue', 'Vite', 'TypeScript', 'SCSS'],
-    externalLink: 'http://google.com'
+    description: 'My personal portfolio',
+    technologies: ['Vue', 'Vite', 'TypeScript'],
+    externalLink: 'https://github.com/valentimkoniarski/portfolio'
   },
   {
     ariaLabel: 'Link to the project',
     title: 'Project Transfer',
     description: 'Project description 2',
-    technologies: ['Vue', 'Vite', 'TypeScript', 'SCSS'],
-    externalLink: 'http://google.com'
+    technologies: ['Java', 'Spring boot', 'JUnit', 'Kafka', 'PostgreSQL', 'Spring JPA'],
+    externalLink: 'https://github.com/valentimkoniarski/transferencia-models'
   }
 ]
 </script>
