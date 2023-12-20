@@ -126,12 +126,12 @@ export default {
   flex-wrap: wrap;
   margin-top: 20px;
 
-  .tech-stack-item {
-    font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
-    font-size: 12px;
-    color: rgb(168, 178, 209);
-    line-height: 1.75;
-    margin-right: 12px;
+.tech-stack-item {
+  font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+  font-size: 12px;
+  color: rgb(168, 178, 209);
+  line-height: 1.75;
+  margin-right: 22px;
   }
 }
 </style>
